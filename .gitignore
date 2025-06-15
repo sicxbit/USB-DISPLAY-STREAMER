@@ -1,0 +1,5 @@
+# Ignore all files in adb folder
+adb/*
+
+# But keep the folder itself
+!adb/.gitkeep
