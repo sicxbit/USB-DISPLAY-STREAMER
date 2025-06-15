@@ -1,13 +1,41 @@
-# USB-DISPLAY-STREAMER
-so yeah i am tryna build a usb to display streamer which can mirror my pc screen into my phone
+# USB Display Streamer
 
-## Application
+A lightweight project to mirror your PC screen to your phone via **USB**, built for creators and tinkerers who want control — without the high price tag.
 
-so in order to do video editing i needed to colorgrade a project but the thing is i cant just color correct on my pc and get a different output on my phone ( the difference between LCD and oled is too high on my devices), Yes i have searched for other applications which can do this and all of them are incredibly pricey which i can't afford 
-so yeah i will do this myself 
+##  Purpose
 
-## Goal #1
-Stream my pc screen to my phone via USB
+While editing videos, I ran into a big issue — color grading on my LCD monitor looked totally different on my phone's OLED screen. I needed an affordable way to **preview and color grade directly for my phone display**.
 
-## flowchart
+Most apps out there are either:
+- **Too expensive**, or  
+- **Not tailored** to my workflow
+
+So I built my own.
+
+## Project Milestones
+
+- **Goal #1**: Stream PC screen to phone over USB  
+  ✅ *Completed on 15/06/25*
+
+## 🔁 Flowchart
+
 ![Flowchart](assets/flowchart.png)
+
+## Setup Instructions
+
+1. **Clone this repository**
+   ```bash
+   git clone https://github.com/sicxbit/usb-display-streamer.git
+   cd usb-display-streamer 
+   ```
+
+2. **Install the dependancies**
+``` 
+pip install -r requirements.txt 
+
+```
+3. **Run the script**
+```
+python run.py
+```
+
