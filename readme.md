@@ -30,12 +30,22 @@ So I built my own.
    ```
 
 2. **Install the dependancies**
-``` 
-pip install -r requirements.txt 
+    ``` 
+    pip install -r requirements.txt 
 
-```
+    ```
 3. **Run the script**
-```
-python run.py
-```
+    ```
+    python run.py
+    ```
 
+## ⚠ ADB Dependency
+
+ADB is required but **not bundled** due to licensing.
+
+Please do one of the following:
+1. [Download ADB from Google's official page](https://developer.android.com/studio/releases/platform-tools)
+2. Place `adb.exe` inside the `adb/` folder, OR
+3. Set an environment variable pointing to your ADB:
+   ```bash
+   export ADB_PATH="C:/path/to/adb.exe"
