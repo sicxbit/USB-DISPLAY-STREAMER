@@ -8,3 +8,6 @@ so yeah i will do this myself
 
 ## Goal #1
 Stream my pc screen to my phone via USB
+
+## flowchart
+![Flowchart](assets/flowchart.png)
