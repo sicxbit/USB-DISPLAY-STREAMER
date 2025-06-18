@@ -18,10 +18,12 @@ So I built my own.
   ✅ *Completed on 15/06/25*
 - **Goal #2**: Detect the connected phone as a second display 
 
-## 🔁 Flowchart
+## 🔁 Flowchart ( Phase 1)
 
-![Flowchart](assets/flowchart1.png)
+![Flowchart-1](assets/flowchart1.png)
 
+## 🔁 Flowchart ( Phase )
+![Flowchart-2](assets/flowchart2.png)
 ## Setup Instructions
 
 1. **Clone this repository**
