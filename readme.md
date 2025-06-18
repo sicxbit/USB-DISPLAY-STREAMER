@@ -22,7 +22,7 @@ So I built my own.
 
 ![Flowchart-1](assets/flowchart1.png)
 
-## 🔁 Flowchart ( Phase )
+## 🔁 Flowchart ( Phase 2 )
 ![Flowchart-2](assets/flowchart2.png)
 ## Setup Instructions
 
