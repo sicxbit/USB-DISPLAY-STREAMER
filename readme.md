@@ -16,10 +16,11 @@ So I built my own.
 
 - **Goal #1**: Stream PC screen to phone over USB  
   ✅ *Completed on 15/06/25*
+- **Goal #2**: Detect the connected phone as a second display 
 
 ## 🔁 Flowchart
 
-![Flowchart](assets/flowchart.png)
+![Flowchart](assets/flowchart1.png)
 
 ## Setup Instructions
 

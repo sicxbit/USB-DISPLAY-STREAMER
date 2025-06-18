@@ -10,7 +10,7 @@ ADB_ZIP_PATH = "platform-tools.zip"
 ADB_DIR = "adb"
 REQUIRED_FILES = ["adb.exe", "AdbWinApi.dll", "AdbWinUsbApi.dll"]
 
-#Check if all required ADB files are already extracted
+#Checking if required ADB files are already extracted
 def adb_files_present():
     return all(os.path.isfile(os.path.join(ADB_DIR, f)) for f in REQUIRED_FILES)
 
