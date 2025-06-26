@@ -33,6 +33,11 @@ else:
     print("✔️ ADB already set up — skipping download.")
 
 
+# checking if the dummy display driver is installed and if not, running the setup script
+if not os.path.exists(os.path.join("tools", "SudoVDA")):
+    print("🚀 Running dummy display setup...")
+    subprocess.run(["python", "setupDummyDisplay.py"], shell=True)
+
 
 print("🚀 Starting Flask server on localhost:8080...")
 subprocess.Popen(["venv\\Scripts\\python.exe", "stream.py"], shell=True)

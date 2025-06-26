@@ -3,3 +3,7 @@ adb/*
 
 # But keep the folder itself
 !adb/.gitkeep
+
+tools/*
+
+!tools/ .gitkeep
